@@ -9,6 +9,8 @@ import { HomePage } from '../pages/home/home.page';
 import { SlideBoxPage } from '../pages/slide-box/slide-box.page';
 import { WordpressListPage } from '../pages/wordpress/list/wordpress.list.page';
 
+import { I18nDemoPage } from '../pages/i18n-demo/i18n-demo.page';
+
 @Component({
 	templateUrl: 'app.html'
 })
@@ -32,7 +34,8 @@ export class MyApp {
 			{ title: 'Wordpress', component: WordpressListPage, icon: 'logo-wordpress' },
 			{ title: 'Slides', component: SlideBoxPage, icon: 'swap' },
 			{ title: 'Google maps', component: GoogleMapsPage, icon: 'map' },
-			{ title: 'Components', component: ComponentsListPage, icon: 'grid' }
+			{ title: 'Components', component: ComponentsListPage, icon: 'grid' },
+      { title: 'i18n', component: I18nDemoPage, icon: 'globe'}
 		];
 
 		this.rootPage = HomePage;

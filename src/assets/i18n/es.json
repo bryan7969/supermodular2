@@ -1,0 +1,6 @@
+{
+  "HELLO": "Hoal desde Ionic",
+  "I18N_EXAMPLE": "ejemplo i18n",
+  "STRING_WITH_PARAMS": "Cadena con un parametro: {{value}}",
+  "INNER_CONTENT": "Contenido inner con un parametro: {{value}}"
+}
